@@ -91,9 +91,15 @@ body {
   }
 
   nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
+    margin-top: 12px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1661c472;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
   }
 
   nav ul li {
