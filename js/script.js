@@ -9,7 +9,7 @@ formElement.scrollIntoView({ behavior: 'smooth' });
     let email = document.getElementById('email').value;
     let mensaje = document.getElementById('message').value;
     // enviar los valores en un objeto a la consola
-  }
+  
     if(nombre === '' || email === '' || mensaje === '') {
       alert('Por favor, complete todos los campos');
       return;
@@ -21,3 +21,4 @@ formElement.scrollIntoView({ behavior: 'smooth' });
     document.getElementById('name').value = '';
     document.getElementById('email').value = '';
     document.getElementById('message').value = '';
+  }
