@@ -72,3 +72,40 @@ body {
   h2 {
 color:brown
   }
+/* ESTILOS DE PA PAGINA PRINCIPAL */
+.container-1, .container-2 {
+  display: grid;
+  grid-template-columns: repeat(2,1);
+  gap: 16px;
+  width: 80%;
+  max-width: 1200px ;
+}
+.recetas{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: white;
+border: 1px solid #ddd;
+border-radius: 8px;
+padding: 16px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) ;
+}
+.recetas img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.recetas button {
+  margin-top: 12px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: nome;
+  border-radius: 4px;
+  background-color: #007bff;
+  cursor: pointer;
+}
+.recetas button:hover {
+  background-color: #0056b3;
+}
