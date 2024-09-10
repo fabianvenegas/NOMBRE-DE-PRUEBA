@@ -19,11 +19,9 @@ body {
     margin-top: 10px;
     text-shadow: 2px 2px 2px #00000072;
   }
-
   #cta h1 span {
-    color: #007bff;
+    color: #007BFF;
   }
-
   section {
     padding: 10px 10px;
     text-align: center;
@@ -31,16 +29,14 @@ body {
   button {
     padding: 10px 20px;
     font-size: 1em;
-    background-color: #007bff;
+    background-color: #007BFF;
     color: #fff;
     border: none;
     cursor: pointer;
   }
-
   section#form {
     background-color: #6abae2b4;
   }
-
   form {
     margin: 0 auto;
     max-width: 350px;
@@ -56,7 +52,7 @@ body {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 4px solid #ccc;
     border-radius: 5px;
   }
   form button {
@@ -65,167 +61,14 @@ body {
   }
   footer {
     text-align: center;
-    background-color: #333;
+    background-color: #5c1717;
     color: #fff;
-    padding: 20px 0;
+    padding: 10px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
   }
 
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  h2 {
+color:brown
   }
-
-  html, body {
-    font-family: Arial, Helvetica, sans-serif
-  }
-
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-  }
-
-  nav ul {
-    margin-top: 12px;
-    padding: 8px 16px;
-    display: flex;
-    justify-content: left;
-    
-  }
-
-  nav ul li {
-    margin: 0 15px;
-    border-radius: 700px;
-    background-color: rgba(237, 237, 237, 0.7);
-
-
-}
-
-  nav ul li a {
-    text-decoration: none;
-    font-size: 30px;
-    transition: color 0.3s ease;
-    font-weight: 200;
-    color: rgb(15, 15, 15);
-  }
-
-  nav ul li a:hover {
-    color: #e80c0c;
-  }
-
-  #header {
-    background-color: #333;
-    color: #a3aba0;
-    padding: 10px 0;
-    text-align: center;
-  }
-
-  #header h1 {
-    margin: 0;
-}
-
-main {
-  padding: 20px;
-  max-width: 800px;
-  margin: 0 auto;
-  padding-bottom: 100px;
-}
-
-h1, h2 {
-  color: #333;
-}
-
-h1 {
-  font-size: 2em;
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 1.5em;
-  margin-bottom: 15px;
-}
-
-p {
-  margin-bottom: 20px;
-}
-
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-ul li {
-  background-color: #f4f4f4;
-  border: 1px solid #ddd;
-  margin-bottom: 10px;
-  padding: 10px;
-}
-
-#footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  height: 30px;
-}
-
-#footer p {
-  margin: 0;
-}
-  /* SECCION RECETAS HOME */
-  #container-header {
-    background: url('/NOMBRE-DE-PRUEBA/img/header-img.jpg') no-repeat top center ;
-    width: 100%;
-    height: 250px;
-  }
-  h1{
-    text-align: center;
-    padding-top: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-.container-1, .container-2 {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  width: 80%;
-}
-.recetas{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 50px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  width: 50%;
-  margin: 30px;
-}
-.recetas img{
- width: 300px;
-  height: 200px;
-  border-radius: 8px;
-}
-.recetas button {
-  margin-top: 12px;
-  padding: 8px 16px;
-  font-size: 16px;
-  border: none;
-  border-radius: 4px;
-  background-color: #84aadc72;
-  color: #fff;
-  cursor: pointer;
-  font-size: 20px;
-}
-.recetas button:hover{
-  background-color: rgb(5, 15, 72);
-}

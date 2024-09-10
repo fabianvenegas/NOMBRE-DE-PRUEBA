@@ -1,11 +1,8 @@
-
 let form = document.getElementById('cta-form');
-
 form.addEventListener('click', function() {
   let formElement = document.getElementById('form');
 formElement.scrollIntoView({ behavior: 'smooth' });
 });
-
   function presionarBoton() {
     // capturar los valores de los inputs
     let nombre = document.getElementById('name').value;
@@ -13,12 +10,10 @@ formElement.scrollIntoView({ behavior: 'smooth' });
     let mensaje = document.getElementById('message').value;
     // enviar los valores en un objeto a la consola
   }
-
     if(nombre === '' || email === '' || mensaje === '') {
       alert('Por favor, complete todos los campos');
       return;
     }
-
     // mostrar un mensaje de alerta
     alert('Gracias por enviar tu mensaje');
     console.log({nombre, email, mensaje});
