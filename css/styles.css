@@ -201,7 +201,7 @@ nav ul {
   margin-top: 12px;
     padding: 8px 16px;
     display: flex; 
-    justify-content: left; 
+    justify-content: center; 
     list-style-type: none; 
 
 }
