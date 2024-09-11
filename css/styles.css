@@ -85,7 +85,8 @@ h2 {
 }
 
 /* ESTILOS DE PA PAGINA PRINCIPAL */
-h1 {
+h1 , h2 {
+  margin: 30px;
   text-align: center;
 }
 .container-1, .container-2 {
@@ -130,6 +131,28 @@ h1 {
 
 .recetas button:hover {
   background-color: rgb(104, 121, 218);
+}
+/* ESTILOS RESEÑAS */
+.resenas{
+  display: flexbox;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 80%;
+}
+.resena-cliente{
+  display: flex;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  margin: 40px;
+  border-radius: 30px;
+}
+.foto-cliente img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px;
+  object-fit: cover;
+  object-position: center;
 }
 
 
