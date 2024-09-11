@@ -154,6 +154,10 @@ h1 , h2 {
   object-fit: cover;
   object-position: center;
 }
+section {
+  background-color: rgba(37, 3, 131, 0.3)
+
+}
 
 
 html, body {
