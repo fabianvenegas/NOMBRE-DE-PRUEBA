@@ -26,7 +26,11 @@
         <div class="recetas">
             <img src="../img/Receta-anticuchos.jpg" alt="anticuchos">
             <h3>Anticuchos</h3>
-            <button type="button"> Ver más</button>
+            <button type="button" onClick="toggleCard('card-anticucho')"> Ver más</button>
+            <div class="card" id="card-anticucho">
+                <p>El anticucho marida super bien con pebre!</p>
+                <button type="button" onClick="toggleCard('card-anticucho')">Cerrar</button>
+            </div>
         </div>
         <div class="recetas">
             <img src="../img/receta-choripan.jpg" alt="choripan">
@@ -35,6 +39,7 @@
             <div class="card" id="card-choripan">
                 <p>El choripan es alto en proteinas y carbohidratos, perfecto para aumentar de peso!</p>
                 <button type="button" onClick="toggleCard('card-choripan')">Cerrar</button>
+                </div>
         </div>
     </div>
 
