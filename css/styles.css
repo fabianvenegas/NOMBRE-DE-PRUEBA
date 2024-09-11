@@ -158,6 +158,9 @@ section {
   background-color: rgba(37, 3, 131, 0.3)
 
 }
+section p {
+  font-size: 25px;
+}
 
 
 html, body {
