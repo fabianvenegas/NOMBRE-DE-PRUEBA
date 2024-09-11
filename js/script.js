@@ -11,7 +11,7 @@ form.addEventListener('submit', function(event) {
   if (nombre === '' || email === '' || mensaje === '') {
     alert('Por favor, complete todos los campos');
     return;
-  }
+  } 
 
   alert('Gracias por enviar tu mensaje');
 
