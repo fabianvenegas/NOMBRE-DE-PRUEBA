@@ -17,7 +17,11 @@
         <div class="recetas">
             <img src="../img/receta-pebre.png" alt="pebre">
             <h3>Pebre</h3>
-            <button type="button"> Ver más</button>
+            <button type="button" onClick="toggleCard('card-pebre')"> Ver más</button>
+            <div class="card" id="card-pebre">
+                <p>El pebre es genial para acompañar tus comidas!</p>
+                <button type="button" onClick="toggleCard('card-pebre')">Cerrar</button>
+            </div>
         </div>
         <div class="recetas">
             <img src="../img/Receta-anticuchos.jpg" alt="anticuchos">
@@ -77,6 +81,7 @@
     </main>
     <div id="footer"></div>
     <script src="../js/components.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>

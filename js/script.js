@@ -21,3 +21,12 @@ form.addEventListener('submit', function(event) {
 });
 
 document.getElementById('form').scrollIntoView({ behavior: 'smooth' });
+
+function toggleCard(cardId) {
+  const card = document.getElementById(cardId);
+  if (card.style.display === 'none' || card.style.display === '') {
+      card.style.display = 'block';
+  } else {
+      card.style.display = 'none';
+  }
+}
