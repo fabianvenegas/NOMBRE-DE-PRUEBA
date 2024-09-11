@@ -1,4 +1,3 @@
-let form = document.getElementById('cta-form');
 form.addEventListener('click', function() {
   let formElement = document.getElementById('form');
 formElement.scrollIntoView({ behavior: 'smooth' });
