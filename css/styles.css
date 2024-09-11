@@ -1,125 +1,187 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  header {
-    text-align: center;
-    padding: 50px 0;
-    background-image: url('https://radio.uchile.cl/wp-content/uploads/2021/08/0858deef-fonda-parque-ohiggins-aton.jpg');
-    background-size: cover;
-    background-position: top;
-    color: #fff;
-    height: 40vh;
-    overflow: hidden;
-  }
-  #cta h1 {
-    font-size: 4em;
-    margin: 0;
-    margin-top: 10px;
-    text-shadow: 2px 2px 2px #00000072;
-  }
-
-  #cta h1 span {
-    color: #007bff;
-  }
-
-  section {
-    padding: 10px 10px;
-    text-align: center;
-  }
-  button {
-    padding: 10px 20px;
-    font-size: 1em;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-
-  section#form {
-    background-color: #6abae2b4;
-  }
-
-  form {
-    margin: 0 auto;
-    max-width: 350px;
-    text-align: left;
-    margin-bottom: 100px;
-  }
-  form label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  form input,
-  form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  form button {
-    width: 50%;
-    margin-left: 25%;
-  }
-  footer {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-
-
-*{
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  }
+}
 
-  html, body {
-    font-family: Arial, Helvetica, sans-serif
-  }
+header {
+  text-align: center;
+  padding: 50px 0;
+  background-image: url('https://radio.uchile.cl/wp-content/uploads/2021/08/0858deef-fonda-parque-ohiggins-aton.jpg');
+  background-size: cover;
+  background-position: top;
+  color: #fff;
+  height: 40vh;
+  overflow: hidden;
+}
 
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-  }
+#cta h1 {
+  font-size: 4em;
+  margin: 0;
+  margin-top: 10px;
+  text-shadow: 2px 2px 2px #00000072;
+}
 
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-  }
+#cta h1 span {
+  color: #007BFF;
+}
 
-  nav ul li {
-    margin: 0 15px;
-  }
+section {
+  padding: 10px 10px;
+  text-align: center;
+}
 
-  nav ul li a {
-    text-decoration: none;
-    font-size: 20px;
-    transition: color 0.3s ease;
-    font-weight: bold;
-  }
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
 
-  nav ul li a:hover {
-    color: #f39c12;
-  }
+section#form {
+  background-color: #6abae2b4;
+}
 
-  #header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-  }
+form {
+  margin: 0 auto;
+  max-width: 350px;
+  text-align: left;
+  margin-bottom: 100px;
+}
 
-  #header h1 {
-    margin: 0;
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 4px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  width: 50%;
+  margin-left: 25%;
+}
+
+footer {
+  text-align: center;
+  background-color: #5c1717;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+h2 {
+  color: brown;
+}
+
+/* ESTILOS DE PA PAGINA PRINCIPAL */
+h1 {
+  text-align: center;
+}
+.container-1, .container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 0 auto;
+  width: 80%;
+  gap: 16px; 
+}
+
+.recetas {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 150%; 
+  max-width: 300px; 
+  margin: 0; 
+}
+
+.recetas img {
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.recetas button {
+  margin-top: 12px;
+  padding: 8px 16px;
+  font-size: 30px;
+  border: none;
+  border-radius: 4px;
+  background-color: #06033c72;
+  color: #0b0202;
+  cursor: pointer;
+}
+
+.recetas button:hover {
+  background-color: rgb(104, 121, 218);
+}
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  margin-top: 12px;
+    padding: 8px 16px;
+    display: flex; 
+    justify-content: left; 
+    list-style-type: none; 
+
+}
+
+nav ul li {
+  margin: 0 10px; 
+  border-radius: 50px; 
+  padding: 5px 10px; 
+  background-color: rgba(255, 255, 255, .8);
+  font-size: 30px; 
+  cursor: pointer;
+  
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  transition: color 0.3s ease;
+  font-weight: 200;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: #f20a0a;
+}
+
+#header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#header h1 {
+  margin: 0;
 }
 
 main {
@@ -173,51 +235,9 @@ ul li {
 #footer p {
   margin: 0;
 }
-  /* SECCION RECETAS HOME */
-  #container-header {
-    background: url('/NOMBRE-DE-PRUEBA/img/header-img.jpg') no-repeat top center ;
-    width: 100%;
-    height: 250px;
-  }
-  h1{
-    text-align: center;
-    padding-top: 50px;
-  }
-.container-1, .container-2 {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  width: 80%;
-}
-.recetas{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 50px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  width: 50%;
-  margin: 30px;
-}
-.recetas img{
- width: 300px;
-  height: 200px;
-  border-radius: 8px;
-}
-.recetas button {
-  margin-top: 12px;
-  padding: 8px 16px;
-  font-size: 16px;
-  border: none;
-  border-radius: 4px;
-  background-color: #1661c472;
-  color: #fff;
-  cursor: pointer;
-  font-size: 20px;
-}
-.recetas button:hover{
-  background-color: rgb(104, 121, 218);
+
+#container-header {
+  background: url('/NOMBRE-DE-PRUEBA/img/header-img.jpg') no-repeat top center;
+  width: 100%;
+  height: 250px;
 }
