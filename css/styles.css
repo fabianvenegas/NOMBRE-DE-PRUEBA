@@ -121,7 +121,7 @@ h1 , h2 {
   background-color: rgb(104, 121, 218);
 }
 /* ESTILOS RESEÑAS */
-.resenas{
+/* .resenas{
   display: flexbox;
   flex-direction: column;
   margin: 0 auto;
@@ -141,7 +141,8 @@ h1 , h2 {
   margin: 20px;
   object-fit: cover;
   object-position: center;
-}
+} 
+  */
 section {
   background-color: rgba(37, 3, 131, 0.3)
 
@@ -265,10 +266,18 @@ ul li {
 .card {
   height: 500px;
 }
-.carousel-inner {
-  height: 800px;
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
 }
-.item,img {
-  height: 100% !important;
-  width: 100% !important;
+.card img {
+  max-width: 100%;
+  max-height: 100%;
 }
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+
